@@ -4,7 +4,7 @@ import 'package:toktik_app_210714/infraestructure/models/local_video_model.dart'
 import 'package:toktik_app_210714/shared/data/local_video_post.dart';
 
 class DiscoverProvider extends ChangeNotifier {
-  bool initialloading = true;
+  bool initialLoading = true;
   List<VideoPost> videos = [];
 
   Future<void> loadNextPage() async {
@@ -17,7 +17,7 @@ class DiscoverProvider extends ChangeNotifier {
         .toList();
 
     videos.addAll(newVideos);
-    initialloading = false;
+    initialLoading = false;
     notifyListeners();
   }
 }

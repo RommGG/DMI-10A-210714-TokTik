@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
         ChangeNotifierProvider(lazy : false, create: (_) => DiscoverProvider()..loadNextPage()),
       ],
       child: MaterialApp( 
-        title: 'TokTik-210562',
+        title: 'TokTik-210714',
         debugShowCheckedModeBanner: false,
         theme: AppTheme().getTheme(),
         home: const  DiscoverScreen(),

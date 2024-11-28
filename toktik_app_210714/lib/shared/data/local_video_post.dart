@@ -64,4 +64,73 @@ List<Map<String, dynamic>> videoPosts = [
 
   },
 
+  {
+
+    'name': 'Top 1 Rocket League',
+
+    'videoUrl': 'assets/videos/9.mp4',
+
+    'likes': 32,
+
+    'views': 32,
+
+  },
+
+
+{
+
+    'name': 'Ganando Rocket League',
+
+    'videoUrl': 'assets/videos/10.mp4',
+
+    'likes': 56,
+
+    'views': 6756,
+
+  },
+
+
+  {
+
+    'name': 'Rocket League',
+
+    'videoUrl': 'assets/videos/11.mp4',
+
+    'likes': 54,
+
+    'views': 654,
+
+  },
+
+
+  {
+
+    'name': 'Risa',
+
+    'videoUrl': 'assets/videos/12.mp4',
+
+    'likes': 432,
+
+    'views': 4323,
+
+  },
+
+
+
+  {
+
+    'name': 'JAJAJJAA',
+
+    'videoUrl': 'assets/videos/13.mp4',
+
+    'likes': 4342,
+
+    'views': 343432,
+
+  },
+
+
+
+
+
 ];
