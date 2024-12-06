@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-//import 'package:toktik_app_210714/main.dart';
-import 'package:toktik_app_210714/presentation/providers/discover_provider.dart';
 import 'package:provider/provider.dart';
+import 'package:toktik_app_210714/presentation/providers/discover_provider.dart';
 import 'package:toktik_app_210714/presentation/widgets/shared/video_scrollable_view.dart';
 
 class DiscoverScreen extends StatelessWidget {
@@ -11,12 +10,10 @@ class DiscoverScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     final discoverProvider = context.watch<DiscoverProvider>();
 
-    return  Scaffold(
+    return Scaffold(
       body: discoverProvider.initialLoading
-      ? const Center(child: CircularProgressIndicator( strokeWidth: 2,))
+      ? const Center(child: CircularProgressIndicator(strokeWidth: 2,))
       : VideoScrollableView(videos: discoverProvider.videos)
-        
-      
     );
   }
 }
